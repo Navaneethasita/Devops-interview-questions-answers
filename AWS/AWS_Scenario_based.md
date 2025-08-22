@@ -226,3 +226,14 @@ A:
 * Add `Access-Control-Allow-Origin` in Lambda response headers.
 * For `OPTIONS` preflight requests, configure a mock integration or enable in the Gateway directly.
 
+
+1.What is the difference between a container and a virtual machine?
+-- Feature	Containers	                                             Virtual Machines (VMs)
+Definition	Lightweight, portable environments for apps	    Full OS environments running on virtual hardware
+Isolation	Process-level isolation using host OS kernel	    Hardware-level isolation with full OS
+Boot Time	Very fast (seconds)	                            Slower (minutes)
+Size	        Lightweight (MBs)	                            Heavyweight (GBs)
+OS Usage	Shares host OS kernel	                            Each VM has its own OS
+Resource Usage	Efficient (less CPU/RAM overhead)	            Consumes more resources
+Portability	Highly portable (run anywhere Docker runs)	    Less portable (depends on hypervisor)
+Use Case	Microservices, DevOps pipelines, CI/CD	            Full-stack testing, legacy apps,VDI
