@@ -38,7 +38,7 @@ Here's a corrected and complete version of the comparison table:
 
 A centralized backup service to automate backup of AWS resources:
 
-* Supports RDS, EBS, DynamoDB, EFS, etc.
+* Supports RDS, EBS, DynamoDB, EFS,  etc.
 * Enables scheduled, compliant, and encrypted backups
 * Integrates with AWS Organizations for centralized control
 
