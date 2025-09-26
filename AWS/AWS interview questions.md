@@ -38,7 +38,7 @@ Here's a corrected and complete version of the comparison table:
 
 A centralized backup service to automate backup of AWS resources:
 
-* Supports RDS, EBS, DynamoDB, EFS,  etc.
+* Supports RDS, EBS, DynamoDB, EFS, etc.
 * Enables scheduled, compliant, and encrypted backups
 * Integrates with AWS Organizations for centralized control
 
@@ -62,7 +62,7 @@ Instance Store – Temporary storage tied to EC2 lifecycle.
 
 #### What is Auto Scaling?
 
-Auto Scaling automatically adjusts the number of EC2 instances based on demand using scaling policies (CPU usage, memory, etc.), improving availability and cost-efficiency.
+Auto Scaling automatically adjusts the number of EC2 instances based on demand using scaling policies (CPU usage, memory, etc.), improving availability and cost-efficiency.It increasw the number of instances automatically.
 
 #### What are the types of Load Balancers in AWS?
 
